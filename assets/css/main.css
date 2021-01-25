@@ -3372,14 +3372,14 @@ input, select, textarea {
   }
   .popup-inner {
 	position: relative;
-	bottom: -100vw;
-	right: -100vh;
+	bottom: -60vw;
+	right: -60vh;
 	display: flex;
 	align-items: center;
-	max-width: 800px;
-	max-height: 600px;
-	width: 60%;
-	height: 80%;
+	max-width: 900px;
+	max-height: 800px;
+	width: 80%;
+	height: 90%;
 	background-color: #ffffff;
 	color: #000000;
 	transform: rotate(32deg);
@@ -3389,7 +3389,7 @@ input, select, textarea {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	width: 40%;
+	width: 20%;
 	height: 100%;
 	overflow: hidden;
   }
@@ -3401,9 +3401,9 @@ input, select, textarea {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 60%;
+	width: 80%;
 	height: 100%;
-	padding: 4rem;
+	padding: 1.5rem;
   }
   .popup__text h1 {
 	font-size: 2rem;
@@ -3428,15 +3428,15 @@ input, select, textarea {
   }
   .popup__close {
 	position: absolute;
-	right: -1rem;
-	top: -1rem;
+	right: -0rem;
+	top: -0rem;
 	width: 3rem;
 	height: 3rem;
 	font-size: 0.875rem;
 	font-weight: 300;
 	border-radius: 100%;
 	background-color: #0A0A0A;
-	z-index: 4;
+	z-index: 100;
 	color: #fff;
 	line-height: 3rem;
 	text-align: center;
@@ -3458,7 +3458,7 @@ input, select, textarea {
 	color:#313131;
 	font-size:45px;
 	font-weight: bold;
-	-webkit-animation:colorchange 25s linear 1.2s infinite alternate;
+	-webkit-animation:colorchange 25s linear infinite alternate;
 	
 	
   }
@@ -3519,4 +3519,3 @@ input, select, textarea {
 	}
   }
 
-  
